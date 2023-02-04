@@ -15,7 +15,7 @@ Console.WriteLine($"Последняя цифра: {otvet}");
 Console.WriteLine("------------------");
 Console.WriteLine("Второй метод");
 Console.Write("Введите трёхзначное число: ");
-string num = Console.ReadLine();
+string num = Console.ReadLine()!;
 // if (num < 100 || num > 999) //как здесь надо написать что бы небыло ошибки?
 // {
 //   Console.Write("Неправильное число: ");
