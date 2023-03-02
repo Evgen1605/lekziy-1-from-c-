@@ -9,10 +9,10 @@
 Console.Clear();
 Console.Write("Введите число: ");
 int number = int.Parse(Console.ReadLine()!);
-int i = -1 * number; 
+int i = -1 * number;// создаём перемменую куда кладём значение, где например -1 * 5 = -5 
 
-while (i <= number)
+while (i <= number)// перебираем наше число в цикле где например -5 меньше или равно 5
 {
-  Console.Write($"{i} ");
-  i++;
+  Console.Write($"{i} ");// выводим значения переменной i в консоль
+  i++;// увеличиваем на одну итерацию
 }
